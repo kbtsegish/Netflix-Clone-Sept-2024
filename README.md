@@ -30,3 +30,6 @@ This is a responsive clone of the Netflix homepage, built using HTML, CSS, and J
 1. Clone the repo
    ```bash
    git clone https://github.com/kbtsegish/Netflix-Clone-Sept-2024.git
+
+   ## create .nve file for API
+   ## see from packge 
