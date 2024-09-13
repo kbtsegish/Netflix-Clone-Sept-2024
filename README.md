@@ -32,4 +32,25 @@ This is a responsive clone of the Netflix homepage, built using HTML, CSS, and J
    git clone https://github.com/kbtsegish/Netflix-Clone-Sept-2024.git
 
    ## create .nve file for API
-   ## see from packge 
+   ## see from packge
+
+   ## cd Netflix-Clone-Sept-2024
+## npm install
+## npm run build
+
+##Project Structure##
+Netflix-Clone/
+│
+├── dist/                 # Minified production files
+├── src/                  # Source files
+│   ├── index.html        # Main HTML file
+│   ├── css/              # CSS files
+│   ├── js/               # JavaScript files
+│   └── images/           # Image assets
+│
+├── package.json          # npm dependencies and scripts
+├── webpack.config.js     # Webpack configuration
+├── README.md             # Project documentation
+└── .gitignore            # Ignored files for git
+
+
