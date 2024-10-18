@@ -41,3 +41,52 @@
     cursor: pointer;
     /* background-color: lightgreen; */
 }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-left ul {
+    gap: 10px;
+  }
+
+  .header-right ul {
+    gap: 10px;
+  }
+
+  .header-left li,
+  .header-right li {
+    font-size: 14px;
+  }
+
+  .header-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-left ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .header-right ul {
+    gap: 8px;
+  }
+
+  .header-left li,
+  .header-right li {
+    font-size: 12px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    justify-content: center;
+  }
+}
